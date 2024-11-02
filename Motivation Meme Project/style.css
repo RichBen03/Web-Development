@@ -8,6 +8,11 @@ body{
     margin-top: 100px;
     color: white;
     text-transform: uppercase;
-    text-align: center;
     border:5px solid white;
+}
+.container img{
+    width: 100%;
+}
+.container h1 ,.container p{
+    text-align: center;
 }
