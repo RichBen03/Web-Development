@@ -8,16 +8,19 @@
 }
 h1{
     padding-left: 150px;
-    margin:0px;
+    margin-bottom:0px;
+
 }
 p{
    padding-left: 10px;
+   margin-bottom: 7px;
+   margin-top: 7px;
 }
 h4{
+    margin-top:0px;
     margin-bottom: 0px;
     padding-left: 10px;
-    
 }
-ol li{
-   margin-top: 0px;
+ol{
+   margin-top: 4px;
 }
