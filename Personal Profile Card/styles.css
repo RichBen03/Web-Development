@@ -6,6 +6,18 @@
     margin: auto;
 
 }
-.frame h1{
-    margin: auto;
+h1{
+    padding-left: 150px;
+    margin:0px;
+}
+p{
+   padding-left: 10px;
+}
+h4{
+    margin-bottom: 0px;
+    padding-left: 10px;
+    
+}
+ol li{
+   margin-top: 0px;
 }
