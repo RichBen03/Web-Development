@@ -2,12 +2,13 @@
 #outer-box{
   background-color: purple;
   padding: 10px;
-  color: yellow;
+  
 }
 
 .box {
   background-color: blue;
   padding: 10px;
+  color: yellow;  
 }
 .inner-box{
   background-color: red;
