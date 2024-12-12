@@ -14,13 +14,25 @@
       color: white;
       border: 5px solid gold;
       display: flex;
-      f
+      flex-direction: column;
     }
 
     /*
 Select all the elements that are the direct
 children of the .container class.
     */
+    .container .red,
+    .container .orange,
+    .container .yellow,
+    .container .green,
+    .container .blue,
+    .container .indigo,
+    .container .purple
+    {
+
+      flex-direction: column;
+      flex-basis: 100px;
+    }
 
     .red {background-color: #eb4d4b;}
     .orange {background-color: #f0932b;}
