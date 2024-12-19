@@ -1,0 +1,58 @@
+/* 
+body{
+    font-family: "Noto-Sans",sans-serif;
+    background-color: aliceblue;
+}
+.container{
+    display: flex;
+    text-align: center;
+    height: 100vh;
+    gap: 2rem;
+    justify-content:center ;
+    align-content: center;
+}
+.support-plan{
+    max-width:400px;
+    flex:1;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: (199, 191, 178)
+}
+.description{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.plan-button{
+    display: flex;
+    flex-basis:200px;
+    justify-content: end;
+    margin-left: 170px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: orange;
+}
+.support-title{
+display: flex;
+justify-content: center;
+}
+.support-price{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+@media (max-width:480px){
+    .container{
+        display:flex;
+        flex-direction: column;
+        flex: 1;
+    }
+}
+@media (min-width:481px) and (max-width:800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+} */
