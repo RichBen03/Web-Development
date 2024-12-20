@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+}
+.header{
+    background-color: rgb(150, 122, 122);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 2px solid rgb(231, 217, 216);
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+}
