@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Min Max Sizing</title>
+  <style>
+
+    .grid-container{
+      display: grid;
+      grid-template-columns: minmax(20px,200px) minmax(20px,800px);
+      grid-template-rows: 200px minmax(100px,400px);
+      background-color: black;
+    }
+    .grid-items{
+      background-color: blue;
+      border: 3px solid black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+
+    <div class="grid-items">Item 1</div>
+    <div class="grid-items">Item 2</div>
+    <div class="grid-items">Item 3</div>
+    <div class="grid-items">Item 4</div>
+    
+  </div>
+</body>
+</html>
