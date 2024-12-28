@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fractional Size Grid</title>
+  <title>Fractional sizing</title>
+
   <style>
 
-    .grid-container {
+    .grid-container{
       display: grid;
-      grid-template-rows: 1fr 2fr;
-      grid-template-columns: 1fr 2fr;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 4fr 2.5fr;
+      background-color: grey;
+      width: 5px;
     }
+    .grid-items{
+      background-color: yellow;
+      border: 2px solid black;
+      width: 200px;
 
-    .grid-item {
-      font-size: 3rem;
-      background-color: darkviolet;
-      border: 5px solid goldenrod;
-      color: white;
+
     }
   </style>
 </head>
-
 <body>
-  <h1>Fractional Size Grid</h1>
   <div class="grid-container">
-    <div class="grid-item">1</div>
-    <div class="grid-item">2</div>
-    <div class="grid-item">3</div>
-    <div class="grid-item">4</div>
+    <div class="grid-items">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis dolor quisquam ut ipsum accusamus repellat delectus consectetur? Voluptatem beatae molestias eaque error ipsam cumque saepe laudantium sed iusto, dolores odit?</div>
+    <div class="grid-items">Item 2</div>
+    <div class="grid-items">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis dolor quisquam ut ipsum accusamus repellat delectus consectetur? Voluptatem beatae molestias eaque error ipsam cumque saepe laudantium sed iusto, dolores odit?</div>
+    <div class="grid-items">Item 4</div>
   </div>
+  
 </body>
-
 </html>
