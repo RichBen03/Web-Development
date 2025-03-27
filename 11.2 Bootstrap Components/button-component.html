@@ -37,11 +37,35 @@
  <button class="btn btn-outline-info">Submuit</button>
  <button class="btn btn-outline-dark">Submuit</button>
 </div>
+
 <!-- Button sizes for the size of the button -->
 <div class="container-fluid" style="background-color: black; padding: 20px;">
-
+    <button class="btn btn-danger btn-sm">Small button</button>
+    <button class="btn btn-primary btn-lg">large button</button>
+    <button class="btn btn-primary btn-md">medium button</button>
 </div>
 
+<!-- Adding functionality to the button (disabled) -->
+ <div class="container-fluid" style="background-color: black; padding: 20px;">
+    <button class="btn btn-primary" disabled>Disabled</button>
+
+    <!-- using anchor tags with the button and attribute disabled -->
+     <a class="btn btn-danger disabled" role="button" aria-disabled="true" disabled>Disabled</a>
+
+     <!-- In cases where the href must be utilized -->
+      <a href="#" class="btn btn-primary disabled" aria-disabled="true" tabindex="-1" >Disabled</a>
+
+</div>
+<!-- Block level buttons -->
+<div  class="container-fluid" style="margin: 5px; padding: 20px;">
+<form class="d-grid gap-2 d-md-flex justify-content-end" action="Post">
+    <button class="btn btn-primary btn-lg">Submit</button>
+    <button class="btn btn-primary btn-lg">Submit</button>
+    <button class="btn btn-primary btn-lg">Submit</button>
+    <button class="btn btn-primary btn-lg">Submit</button>
+    <button class="btn btn-primary btn-lg">Submit</button>
+</form>
+</div>
 
     <!-- bootstrap links -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
